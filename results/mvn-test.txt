@@ -11,7 +11,8 @@
 [INFO] skip non existing resourceDirectory /home/tontooshko/dt/kali/sem4/пх чанарын баталгаа ба туршилт/lab8/starter/starter/src/main/resources
 [INFO] 
 [INFO] --- compiler:3.16.0:compile (default-compile) @ lab08-mockito ---
-[INFO] Nothing to compile - all classes are up to date.
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 4 source files with javac [debug release 17] to target/classes
 [INFO] 
 [INFO] --- resources:3.5.0:testResources (default-testResources) @ lab08-mockito ---
 [INFO] skip non existing resourceDirectory /home/tontooshko/dt/kali/sem4/пх чанарын баталгаа ба туршилт/lab8/starter/starter/src/test/resources
@@ -28,11 +29,7 @@
 [INFO] -------------------------------------------------------
 [INFO] Running mn.edu.must.sqat.CourseRegistrationServiceTest
 OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
-WARNING: A Java agent has been loaded dynamically (/home/tontooshko/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.12/byte-buddy-agent-1.14.12.jar)
-WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
-WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
-WARNING: Dynamic loading of agents will be disallowed by default in a future release
-[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.567 s -- in mn.edu.must.sqat.CourseRegistrationServiceTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.364 s -- in mn.edu.must.sqat.CourseRegistrationServiceTest
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -41,6 +38,6 @@ WARNING: Dynamic loading of agents will be disallowed by default in a future rel
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  3.275 s
-[INFO] Finished at: 2026-11-03T20:40:52+08:00
+[INFO] Total time:  1.749 s
+[INFO] Finished at: 2026-11-03T20:45:36+08:00
 [INFO] ------------------------------------------------------------------------
